@@ -10,6 +10,7 @@
 
 
 function abbrevName(name){
+  
     let initial = []
   initial.push(name[0])
   for(let i = 0; i < name.length; i++){
@@ -17,8 +18,8 @@ function abbrevName(name){
           initial.push(name[i])
       }
   }
-  return (initial.join('.'))
   
-    
-    
-  }
+  let str = (initial.join('.'))
+  return str.toUpperCase()
+  
+}
