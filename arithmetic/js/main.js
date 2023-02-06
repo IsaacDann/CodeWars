@@ -12,5 +12,6 @@ function arithmetic(a, b, operator){
       'divide': (a, b) => a / b,
     }
     
+    
     return functions[operator](a, b)
   }
